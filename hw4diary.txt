@@ -1,0 +1,148 @@
+        close10(8,13)->8
+        close10(13,8)->8
+        close10(7,13)->0
+        close10(13,7)->0
+        close10(5,21)->5
+        close10(0,20)->0
+        close10(10,10)->0
+        close10(27,-7)->0
+        close10(15.5,4.5)->0
+        close10(123456,123457)->123456
+e = 0
+        close10(15,15)->0
+        close10(-2,1)->1
+        close10(-10,53)->-10
+
+Errors: 0
+
+      delDel(computers)=computers
+      delDel(conquer)=conquer
+      delDel(Earth)=Earth
+      delDel(Oh no!)=Oh no!
+      delDel(delta)=delta
+      delDel(ftdel)=ftdel
+      delDel(tdel)=t
+      delDel(delt)=delt
+      delDel( del)= 
+      delDel(DELta)=DELta
+      delDel(dAeAl)=dAeAl
+      delDel(de l)=de l
+      delDel(del)=del
+      delDel(de)=de
+      delDel(dEl)=dEl
+      delDel(de1)=de1
+ans = 0
+ERROR!  front3(a) -> warning: implicit conversion from bool to string
+  <> aaa
+ERROR!  front3(Ab) -> warning: implicit conversion from bool to string
+  <> AbAbAb
+ERROR!  front3(AbC) -> warning: implicit conversion from bool to string
+  <> AbCAbCAbC
+ERROR!  front3(_a_) -> warning: implicit conversion from bool to string
+  <> _a__a__a_
+        front3(abcde) -> abcabcabc
+        front3(AbCdEf) -> AbCAbCAbC
+ERROR!  front3() -> warning: implicit conversion from bool to string
+  <> 
+ERROR!  front3( a) -> warning: implicit conversion from bool to string
+  <>  a a a
+        front3(finalssss) -> finfinfin
+ans =  6
+      hasTeen(12,20,13)=1
+      hasTeen(12,19,20)=1
+      hasTeen(19,20,12)=1
+      hasTeen(19,20,13)=1
+      hasTeen(19,18,13)=1
+      hasTeen(12,20,100)=0
+      hasTeen(90,12,20)=0
+      hasTeen(14,15,16)=1
+      hasTeen(12,12,12)=0
+      hasTeen(13,13,13)=1
+      hasTeen(-2,0,4)=0
+      hasTeen(12,16,1)=1
+      hasTeen(13,12,20)=1
+      hasTeen(12,20,12)=0
+      hasTeen(-13,-15,5)=0
+ans = 0
+Runs several tests on the function icyhot(t1, t2) 
+where t1 and t2 are integers,
+and returns the number of false tests or tests that fail 
+while calling on the function icyhot
+
+      icyhot(120,-1)=1
+      icyhot(1,50)=0
+      icyhot(77,68)=0
+      icyhot(-1,101)=1
+      icyhot(1,101)=0
+      icyhot(101,-1)=1
+      icyhot(132,212)=0
+      icyhot(-63,12)=0
+Total Number of errors in test = 0
+ans = 0
+ in3050(20,40)=0
+ in3050(35,49)=0
+ in3050(99,200)=0
+ in3050(44,33)=0
+ in3050(9999,8888)=0
+ in3050(34,8976454)=0
+ in3050(44,33)=0
+ in3050(45,32)=0
+ in3050(30,50)=0
+ in3050(30,41)=0
+ in3050(43,45)=1
+ in3050(37,38)=1
+ in3050(30,40)=1
+ans = 0
+ intMax(1,2,3)=3
+ intMax(12,44,15)=44
+ intMax(98,75,20)=98
+ intMax(111,2000,8956)=8956
+ intMax(30,40,5000)=5000
+ intMax(111,1111,11111)=11111
+ intMax(7463837,9287230949,90238)=9287230949
+ intMax(0,0,1)=1
+ intMax(1,1,1)=1
+ intMax(0,0,0)=0
+ intMax(1,2,10)=10
+ intMax(1,1,2)=2
+ intMax(-5,0,0)=0
+ans = 0
+ERROR: parrot_trouble(1, 1)->0 <> 1
+       parrot_trouble(0, 20) = 0
+       parrot_trouble(1, 13) = 0
+       parrot_trouble(0, 0) = 0
+ERROR: parrot_trouble(1, 21)->0 <> 1
+       parrot_trouble(1, 12) = 0
+       parrot_trouble(0, 7) = 0
+ERROR: parrot_trouble(1, 1)->0 <> 1
+       parrot_trouble(0, 22) = 0
+       parrot_trouble(1, 11) = 0
+       parrot_trouble(1, 7) = 0
+ERROR: parrot_trouble(1, 22)->0 <> 1
+       parrot_trouble(0, 15) = 0
+       parrot_trouble(1, 20) = 0
+ans =  4
+       SleepIn(1,1) = 1
+ERROR: SleepIn(1,0) -> 1 <> 0
+       SleepIn(0,1) = 1
+       SleepIn(0,0) = 1
+ans =  1
+      sumDouble(1,3)=4
+      sumDouble(2,2)=8
+      sumDouble(4,5)=9
+      sumDouble(4,4)=16
+      sumDouble(3,2)=5
+      sumDouble(4,2)=6
+      sumDouble(10,11)=21
+      sumDouble(9,9)=36
+      sumDouble(1,5)=6
+      sumDouble(3,0)=3
+      sumDouble(-3,-3)=-12
+      sumDouble(900,-53)=847
+      sumDouble(0,0)=0
+      sumDouble(888,666)=1554
+      sumDouble(-5,5)=0
+ERROR:sumDouble(0,0)->0 <> 0
+      sumDouble(0,0)=0
+      sumDouble(-6,-5)=-11
+ans =  1
